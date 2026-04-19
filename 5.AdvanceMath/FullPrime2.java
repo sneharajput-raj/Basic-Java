@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrimeCheck2 {   //a num is full prime--> if a number and its all digits(individually) r prime
+public class FullPrime2 {   //a num is full prime--> if a number and its all digits(individually) r prime
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

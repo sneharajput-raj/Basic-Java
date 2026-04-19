@@ -12,6 +12,12 @@ public class StringFunctions {
         String s1 = "   Be Patience   ";
         System.out.println(s1.trim());
 
+        String a = "Java";
+        String b = new String("Java");   
+        System.out.println(a == b);        //false
+        System.out.println(a.equals(b));   //true
+
+
         System.out.println(swapFirstLast(s));
     }
     public static String swapFirstLast(String s){
@@ -19,7 +25,5 @@ public class StringFunctions {
         char c2 = s.charAt(s.length() -1);
         String ans = c2 + s.substring(1 , s.length()-1) + c1;
         return ans; 
-
-        
-    }
+   }
 }
